@@ -1,0 +1,11 @@
+name = "hydro-worker"
+main = "worker.js"
+compatibility_date = "2026-08-01"
+
+[vars]
+CORS_ORIGIN = "*"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "hydro-db"
+database_id = "ae4ca814-b83b-427a-aa62-4d334fa33cf6"
